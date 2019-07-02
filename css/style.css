@@ -1,0 +1,147 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ #learn > div > div > div > div > img{
+
+ }
+.logos > img{
+  border: 1px solid #f1f1f1;
+  box-shadow: -1px 1px 1px -2px rgba(0, 0, 0, 0.05), 16px 18px 16px rgba(0, 0, 0, 0);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 17px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(36%);
+}
+ .page-footer {
+    padding-top: 20px;
+    color: #000!important;
+    background-color: #ffffff!important;
+}
+
+ #learn > div.col.s12.center > h4{
+   font-size: 4.2rem;
+   line-height: 110%;
+   margin: 2.8rem 0 1.68rem 0;
+   color: #08799c !important;
+ }
+ #learn > div.col.s12.center > p{
+   background-color: #b1bfbf00;
+padding: 20px;
+border: 1px solid #eaeaea;
+ }
+#learn > hr{
+  border: 1px solid #00aed9;
+  margin-bottom: 32px;
+
+}
+#learn > div > div> div > div > p > b{
+      font-size: 24px;
+}
+ .card-panel {
+   box-shadow: none!important;
+   border: 1px solid #eaeaea!important;
+ }
+
+#main_navigation > div > ul.right.hide-on-med-and-down > li:nth-child(5) > nav{
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0);
+    max-height: 63px;
+
+}
+
+#main_navigation > div > ul.right.hide-on-med-and-down > li:nth-child(5) > nav > div > form > div > label > i{
+
+      color: #313131;
+}
+
+ #fisrt_bkg:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image: linear-gradient(to bottom,#ffffff,#f7ecdef5);
+   opacity: 0.99;
+   z-index: 999;
+}
+.parallax:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.99;
+  z-index: 999;
+  /* background: #aa4b6b; */
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+  background: linear-gradient(to right, #e6f0f1, #fdf0e0f0, #f7e2e3);
+}
+#main_navigation{
+  box-shadow: none;
+  border-bottom: 1px solid #e4e4e4;
+}
+#logo-container > img{
+
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0);
+}
+
+#index-banner > div.section.no-pad-bot > div > div:nth-child(4) > h5 {
+color: #02afd9;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
